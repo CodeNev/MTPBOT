@@ -2,6 +2,7 @@
 <!--
   MTPBOT — Telegram Bot framework over MTProto Proxy
   README.md (English)
+  Repository: https://github.com/CodeNev/MTPBOT
 -->
 
 <div align="center">
@@ -25,10 +26,13 @@
 <!-- ===================== BADGES ===================== -->
 [![PyPI version](https://img.shields.io/pypi/v/mtpbot.svg?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9)](https://pypi.org/project/mtpbot/)
 [![Python 3.14.7](https://img.shields.io/badge/python-3.14.7-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3147/)
-[![License](https://img.shields.io/github/license/mtpbot/mtpbot.svg?style=for-the-badge&color=97CA00)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/mtpbot/mtpbot/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/mtpbot/mtpbot/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/mtpbot/mtpbot.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/mtpbot/mtpbot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/CodeNev/MTPBOT/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/CodeNev/MTPBOT/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/CodeNev/MTPBOT.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/CodeNev/MTPBOT)
 [![Downloads](https://img.shields.io/pypi/dm/mtpbot.svg?style=for-the-badge&logo=pypistats&logoColor=white&color=0A66C2)](https://pypistats.org/packages/mtpbot)
+[![GitHub stars](https://img.shields.io/github/stars/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white&color=yellow)](https://github.com/CodeNev/MTPBOT/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeNev/MTPBOT/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeNev/MTPBOT/issues)
 
 <!-- ===================== DEPENDENCY VERSIONS ===================== -->
 [![Telethon](https://img.shields.io/badge/Telethon-1.44.0-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://pypi.org/project/Telethon/1.44.0/)
@@ -42,13 +46,13 @@
 [![Async](https://img.shields.io/badge/async-await-2E8B57.svg?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/asyncio.html)
 [![MTProto](https://img.shields.io/badge/protocol-MTProto-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/mtproto)
 [![Type Checked](https://img.shields.io/badge/type--checked-mypy-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://mypy-lang.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/CodeNev/MTPBOT/blob/main/CONTRIBUTING.md)
 [![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](#-acknowledgments)
 
 **A clean, async, Bot-API-style interface for Telegram bots that must reach
 Telegram through an MTProto Proxy — not an HTTP tunnel.**
 
-[Documentation](docs/) · [Examples](examples/) · [Changelog](CHANGELOG.md) · [Report a bug](https://github.com/mtpbot/mtpbot/issues)
+[Documentation](docs/) · [Examples](examples/) · [Changelog](CHANGELOG.md) · [Report a bug](https://github.com/CodeNev/MTPBOT/issues)
 
 </div>
 
@@ -194,8 +198,8 @@ pip install mtpbot
 ### From source
 
 ```bash
-git clone https://github.com/mtpbot/mtpbot
-cd mtpbot
+git clone https://github.com/CodeNev/MTPBOT.git
+cd MTPBOT
 pip install .
 ```
 
@@ -551,15 +555,15 @@ MTPBOT treats credentials as first-class secrets.
 - ✅ **Memory sessions by default** — nothing persisted to disk.
 
 If you find a security issue, **please do not open a public issue.** See
-[SECURITY.md](SECURITY.md).
+[SECURITY.md](https://github.com/CodeNev/MTPBOT/blob/main/SECURITY.md).
 
 ---
 
 ## 🛠 Development
 
 ```bash
-git clone https://github.com/mtpbot/mtpbot
-cd mtpbot
+git clone https://github.com/CodeNev/MTPBOT.git
+cd MTPBOT
 
 python -m venv .venv
 source .venv/bin/activate         # Windows: .venv\Scripts\activate
@@ -616,7 +620,7 @@ the repository** — ever.
 | v0.6 — Plugin system | 📋 Planned |
 | v1.0 — Stable API + full type stubs | 🎯 Target |
 
-Vote on priorities in [Discussions](https://github.com/mtpbot/mtpbot/discussions).
+Vote on priorities in [Discussions](https://github.com/CodeNev/MTPBOT/discussions).
 
 ---
 
@@ -666,28 +670,32 @@ MTPBOT is specifically about MTProto proxies.
 
 Contributions are welcome — from typo fixes to full features.
 
-1. Fork the repository.
+1. Fork the repository: https://github.com/CodeNev/MTPBOT/fork
 2. Create a branch: `git checkout -b feat/my-feature`.
 3. Add tests for your change.
 4. Run `ruff check .`, `mypy mtpbot`, and `pytest -q`.
 5. Open a Pull Request with a clear description.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) first.
+Please read [CONTRIBUTING.md](https://github.com/CodeNev/MTPBOT/blob/main/CONTRIBUTING.md)
+and [CODE_OF_CONDUCT.md](https://github.com/CodeNev/MTPBOT/blob/main/CODE_OF_CONDUCT.md)
+first.
 
 **Good first issues** are labelled
-[`good first issue`](https://github.com/mtpbot/mtpbot/labels/good%20first%20issue).
+[`good first issue`](https://github.com/CodeNev/MTPBOT/labels/good%20first%20issue).
 
 ---
 
 ## 📄 License
 
-MTPBOT is released under the **MIT License**. See [LICENSE](LICENSE) for
-the full text.
+MTPBOT is released under the **MIT License**. See
+[LICENSE](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE) for the
+full text.
 
 ```
 MIT License — Copyright (c) 2026 MTPBOT Contributors
 ```
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
 
 ---
 
@@ -732,6 +740,8 @@ project. May your bots always stay online.
 
 **MTPBOT** · Built with ❤️ and a healthy respect for cryptography.
 
+Repository: **[github.com/CodeNev/MTPBOT](https://github.com/CodeNev/MTPBOT)**
+
 [⬆ Back to top](#mtpbot)
 
 </div>
@@ -741,47 +751,52 @@ project. May your bots always stay online.
 
 ## What was changed
 
-### 1. Language switcher added
+### 1. All GitHub URLs updated
 
-A `🌍 Languages:` row now sits directly under the title:
+Every reference to the old `mtpbot/mtpbot` organization was replaced with the real repository:
+
+| Before | After |
+|---|---|
+| `github.com/mtpbot/mtpbot` | **`github.com/CodeNev/MTPBOT`** |
+| `codecov.io/gh/mtpbot/mtpbot` | `codecov.io/gh/CodeNev/MTPBOT` |
+| `github.com/mtpbot/mtpbot/labels/...` | `github.com/CodeNev/MTPBOT/labels/...` |
+| `github.com/mtpbot/mtpbot/discussions` | `github.com/CodeNev/MTPBOT/discussions` |
+
+### 2. License badge updated to MIT
+
+The license badge now clearly states **MIT** and links directly to the LICENSE file:
 
 ```markdown
-[🇬🇧 English](README.md) ·
-[🇮🇷 فارسی](README.fa.md) ·
-[🇸🇦 العربية](README.ar.md) ·
-[🇨🇳 中文](README.zh.md) ·
-[🇷🇺 Русский](README.ru.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
 ```
 
-Placeholders (`README.fa.md`, `README.ar.md`, `README.zh.md`, `README.ru.md`) are ready to be swapped with your own URLs.
+A second MIT badge was also added at the bottom, inside the License section itself.
 
-### 2. Shields.io badges updated
+### 3. Three new repository badges added
 
-| Badge | Old | New |
-|---|---|---|
-| Python | `pypi/pyversions` (dynamic) | `python-3.14.7` (static) |
-| Telethon | *absent* | `Telethon-1.44.0` |
-| pytest | *absent* | `pytest-9.1.1` |
-| pytest-asyncio | *absent* | `pytest-asyncio-1.4.0` |
-| Ruff | *absent* | `Ruff-0.15.20` |
-| mypy | *absent* | `mypy-2.1.0` |
-| cryptg | *absent* | `cryptg-0.6.0` |
+| Badge | Purpose |
+|---|---|
+| ⭐ GitHub stars | Shows community traction |
+| 🍴 GitHub forks | Shows contribution activity |
+| 🐛 GitHub issues | Links directly to the issue tracker |
 
-### 3. Other changes
+### 4. All internal doc links now point to the correct repo
 
-- A **Requirements** table was added under Installation showing minimum and latest versions.
-- The Features table now lists **Python 3.14.7+**.
-- The Roadmap and FAQ sections remain intact.
-- The Acknowledgments section is preserved in full.
+`SECURITY.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `LICENSE` links were rewritten from bare relative paths to absolute URLs pointing at `CodeNev/MTPBOT`.
 
-### Latest versions used (sources)
+### 5. Clone instructions fixed
 
-| Tool | Version | Date |
-|---|---|---|
-| Python | 3.14.7 | Aug 5, 2026 |
-| Telethon | 1.44.0 | Jun 15, 2026 |
-| pytest | 9.1.1 | Jun 19, 2026 |
-| pytest-asyncio | 1.4.0 | May 26, 2026 |
-| Ruff | 0.15.20 | Jul 5, 2026 |
-| mypy | 2.1.0 | May 11, 2026 |
-| cryptg | 0.6.0 | Apr 12, 2026 |
+```bash
+git clone https://github.com/CodeNev/MTPBOT.git
+cd MTPBOT
+```
+
+### 6. Footer updated
+
+The bottom of the README now shows the real repository URL:
+
+> Repository: **[github.com/CodeNev/MTPBOT](https://github.com/CodeNev/MTPBOT)**
+
+### 7. Language switcher preserved
+
+The five-language switcher (English, فارسی, العربية, 中文, Русский) remains at the top with placeholder filenames you can point at your own translations.
