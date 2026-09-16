@@ -13,7 +13,6 @@
 
 <!-- ===================== LANGUAGE SWITCHER ===================== -->
 🌍 **Languages:**
-[🇬🇧 English](README.md) ·
 [🇮🇷 فارسی](README.fa.md) ·
 [🇸🇦 العربية](README.ar.md) ·
 [🇨🇳 中文](README.zh.md) ·
@@ -745,58 +744,3 @@ Repository: **[github.com/CodeNev/MTPBOT](https://github.com/CodeNev/MTPBOT)**
 [⬆ Back to top](#mtpbot)
 
 </div>
-```
-
----
-
-## What was changed
-
-### 1. All GitHub URLs updated
-
-Every reference to the old `mtpbot/mtpbot` organization was replaced with the real repository:
-
-| Before | After |
-|---|---|
-| `github.com/mtpbot/mtpbot` | **`github.com/CodeNev/MTPBOT`** |
-| `codecov.io/gh/mtpbot/mtpbot` | `codecov.io/gh/CodeNev/MTPBOT` |
-| `github.com/mtpbot/mtpbot/labels/...` | `github.com/CodeNev/MTPBOT/labels/...` |
-| `github.com/mtpbot/mtpbot/discussions` | `github.com/CodeNev/MTPBOT/discussions` |
-
-### 2. License badge updated to MIT
-
-The license badge now clearly states **MIT** and links directly to the LICENSE file:
-
-```markdown
-[![License: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
-```
-
-A second MIT badge was also added at the bottom, inside the License section itself.
-
-### 3. Three new repository badges added
-
-| Badge | Purpose |
-|---|---|
-| ⭐ GitHub stars | Shows community traction |
-| 🍴 GitHub forks | Shows contribution activity |
-| 🐛 GitHub issues | Links directly to the issue tracker |
-
-### 4. All internal doc links now point to the correct repo
-
-`SECURITY.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `LICENSE` links were rewritten from bare relative paths to absolute URLs pointing at `CodeNev/MTPBOT`.
-
-### 5. Clone instructions fixed
-
-```bash
-git clone https://github.com/CodeNev/MTPBOT.git
-cd MTPBOT
-```
-
-### 6. Footer updated
-
-The bottom of the README now shows the real repository URL:
-
-> Repository: **[github.com/CodeNev/MTPBOT](https://github.com/CodeNev/MTPBOT)**
-
-### 7. Language switcher preserved
-
-The five-language switcher (English, فارسی, العربية, 中文, Русский) remains at the top with placeholder filenames you can point at your own translations.
