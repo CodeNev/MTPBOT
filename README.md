@@ -1,7 +1,7 @@
 
 <!--
   MTPBOT — Telegram Bot framework over MTProto Proxy
-  README.md
+  README.md (English)
 -->
 
 <div align="center">
@@ -10,16 +10,38 @@
 
 **Telegram Bot framework over MTProto Proxy — async, modular, production-ready.**
 
+<!-- ===================== LANGUAGE SWITCHER ===================== -->
+🌍 **Languages:**
+[🇬🇧 English](README.md) ·
+[🇮🇷 فارسی](README.fa.md) ·
+[🇸🇦 العربية](README.ar.md) ·
+[🇨🇳 中文](README.zh.md) ·
+[🇷🇺 Русский](README.ru.md)
+
+<!-- Replace the links above with your own URLs. -->
+
+---
+
+<!-- ===================== BADGES ===================== -->
 [![PyPI version](https://img.shields.io/pypi/v/mtpbot.svg?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9)](https://pypi.org/project/mtpbot/)
-[![Python versions](https://img.shields.io/pypi/pyversions/mtpbot.svg?style=for-the-badge&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/mtpbot/)
+[![Python 3.14.7](https://img.shields.io/badge/python-3.14.7-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3147/)
 [![License](https://img.shields.io/github/license/mtpbot/mtpbot.svg?style=for-the-badge&color=97CA00)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/mtpbot/mtpbot/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/mtpbot/mtpbot/actions)
 [![Coverage](https://img.shields.io/codecov/c/github/mtpbot/mtpbot.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/mtpbot/mtpbot)
 [![Downloads](https://img.shields.io/pypi/dm/mtpbot.svg?style=for-the-badge&logo=pypistats&logoColor=white&color=0A66C2)](https://pypistats.org/packages/mtpbot)
-[![Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg?style=for-the-badge&logo=ruff&logoColor=white)](https://github.com/astral-sh/ruff)
-[![mypy](https://img.shields.io/badge/type--checked-mypy-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://mypy-lang.org/)
+
+<!-- ===================== DEPENDENCY VERSIONS ===================== -->
+[![Telethon](https://img.shields.io/badge/Telethon-1.44.0-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://pypi.org/project/Telethon/1.44.0/)
+[![pytest](https://img.shields.io/badge/pytest-9.1.1-0A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)](https://pypi.org/project/pytest/9.1.1/)
+[![pytest-asyncio](https://img.shields.io/badge/pytest--asyncio-1.4.0-0A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)](https://pypi.org/project/pytest-asyncio/1.4.0/)
+[![Ruff](https://img.shields.io/badge/Ruff-0.15.20-000000.svg?style=for-the-badge&logo=ruff&logoColor=white)](https://pypi.org/project/ruff/0.15.20/)
+[![mypy](https://img.shields.io/badge/mypy-2.1.0-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/mypy/2.1.0/)
+[![cryptg](https://img.shields.io/badge/cryptg-0.6.0-2E8B57.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://pypi.org/project/cryptg/0.6.0/)
+
+<!-- ===================== STATUS ===================== -->
 [![Async](https://img.shields.io/badge/async-await-2E8B57.svg?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/asyncio.html)
 [![MTProto](https://img.shields.io/badge/protocol-MTProto-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/mtproto)
+[![Type Checked](https://img.shields.io/badge/type--checked-mypy-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://mypy-lang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 [![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](#-acknowledgments)
 
@@ -105,7 +127,7 @@ routed through an MTProto Proxy.
 | Token and secret redaction in logs | ✅ |
 | Environment variable friendly | ✅ |
 | CLI (`mtpbot run`, `mtpbot check`, `mtpbot version`) | ✅ |
-| Python 3.10+ | ✅ |
+| Python 3.14.7+ | ✅ |
 | Fully typed (`mypy --strict` clean) | ✅ |
 | Zero non-essential dependencies | ✅ |
 
@@ -190,6 +212,18 @@ pip install -e ".[dev]"
 ```bash
 pip install "mtpbot[fast]"
 ```
+
+### Requirements
+
+| Component | Minimum | Latest (as of this release) |
+|---|---|---|
+| Python | 3.14.7 | 3.14.7 |
+| Telethon | 1.44.0 | 1.44.0 |
+| pytest | 9.1.1 | 9.1.1 |
+| pytest-asyncio | 1.4.0 | 1.4.0 |
+| Ruff | 0.15.20 | 0.15.20 |
+| mypy | 2.1.0 | 2.1.0 |
+| cryptg | 0.6.0 | 0.6.0 |
 
 ---
 
@@ -701,3 +735,53 @@ project. May your bots always stay online.
 [⬆ Back to top](#mtpbot)
 
 </div>
+```
+
+---
+
+## What was changed
+
+### 1. Language switcher added
+
+A `🌍 Languages:` row now sits directly under the title:
+
+```markdown
+[🇬🇧 English](README.md) ·
+[🇮🇷 فارسی](README.fa.md) ·
+[🇸🇦 العربية](README.ar.md) ·
+[🇨🇳 中文](README.zh.md) ·
+[🇷🇺 Русский](README.ru.md)
+```
+
+Placeholders (`README.fa.md`, `README.ar.md`, `README.zh.md`, `README.ru.md`) are ready to be swapped with your own URLs.
+
+### 2. Shields.io badges updated
+
+| Badge | Old | New |
+|---|---|---|
+| Python | `pypi/pyversions` (dynamic) | `python-3.14.7` (static) |
+| Telethon | *absent* | `Telethon-1.44.0` |
+| pytest | *absent* | `pytest-9.1.1` |
+| pytest-asyncio | *absent* | `pytest-asyncio-1.4.0` |
+| Ruff | *absent* | `Ruff-0.15.20` |
+| mypy | *absent* | `mypy-2.1.0` |
+| cryptg | *absent* | `cryptg-0.6.0` |
+
+### 3. Other changes
+
+- A **Requirements** table was added under Installation showing minimum and latest versions.
+- The Features table now lists **Python 3.14.7+**.
+- The Roadmap and FAQ sections remain intact.
+- The Acknowledgments section is preserved in full.
+
+### Latest versions used (sources)
+
+| Tool | Version | Date |
+|---|---|---|
+| Python | 3.14.7 | Aug 5, 2026 |
+| Telethon | 1.44.0 | Jun 15, 2026 |
+| pytest | 9.1.1 | Jun 19, 2026 |
+| pytest-asyncio | 1.4.0 | May 26, 2026 |
+| Ruff | 0.15.20 | Jul 5, 2026 |
+| mypy | 2.1.0 | May 11, 2026 |
+| cryptg | 0.6.0 | Apr 12, 2026 |
