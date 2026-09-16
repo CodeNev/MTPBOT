@@ -24,8 +24,6 @@
 [![نسخهٔ PyPI](https://img.shields.io/pypi/v/mtpbot.svg?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9)](https://pypi.org/project/mtpbot/)
 [![پایتون 3.14.7](https://img.shields.io/badge/python-3.14.7-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3147/)
 [![مجوز: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/CodeNev/MTPBOT/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/CodeNev/MTPBOT/actions)
-[![پوشش تست](https://img.shields.io/codecov/c/github/CodeNev/MTPBOT.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/CodeNev/MTPBOT)
 [![دانلودها](https://img.shields.io/pypi/dm/mtpbot.svg?style=for-the-badge&logo=pypistats&logoColor=white&color=0A66C2)](https://pypistats.org/packages/mtpbot)
 [![ستاره‌های گیت‌هاب](https://img.shields.io/github/stars/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white&color=yellow)](https://github.com/CodeNev/MTPBOT/stargazers)
 [![فورک‌ها](https://img.shields.io/github/forks/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeNev/MTPBOT/network/members)
