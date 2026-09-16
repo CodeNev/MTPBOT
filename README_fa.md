@@ -1,7 +1,8 @@
 
 <!--
   MTPBOT — کتابخانهٔ ساخت ربات تلگرام روی MTProto Proxy
-  README.md — نسخهٔ فارسی
+  README.fa.md (فارسی)
+  مخزن: https://github.com/CodeNev/MTPBOT
 -->
 
 <div align="center" dir="rtl">
@@ -10,23 +11,46 @@
 
 **کتابخانهٔ ساخت ربات تلگرام روی MTProto Proxy — async، ماژولار و آمادهٔ تولید.**
 
+<!-- ===================== سوییچر زبان ===================== -->
+🌍 **زبان‌ها:**
+[🇬🇧 English](README.md) ·
+[🇮🇷 فارسی](README.fa.md) ·
+[🇸🇦 العربية](README.ar.md) ·
+[🇨🇳 中文](README.zh.md) ·
+[🇷🇺 Русский](README.ru.md)
+
+---
+
+<!-- ===================== نشان‌ها ===================== -->
 [![نسخهٔ PyPI](https://img.shields.io/pypi/v/mtpbot.svg?style=for-the-badge&logo=pypi&logoColor=white&color=3775A9)](https://pypi.org/project/mtpbot/)
-[![نسخه‌های پایتون](https://img.shields.io/pypi/pyversions/mtpbot.svg?style=for-the-badge&logo=python&logoColor=white&color=3776AB)](https://pypi.org/project/mtpbot/)
-[![مجوز](https://img.shields.io/github/license/mtpbot/mtpbot.svg?style=for-the-badge&color=97CA00)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/mtpbot/mtpbot/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/mtpbot/mtpbot/actions)
-[![پوشش تست](https://img.shields.io/codecov/c/github/mtpbot/mtpbot.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/mtpbot/mtpbot)
+[![پایتون 3.14.7](https://img.shields.io/badge/python-3.14.7-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3147/)
+[![مجوز: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/CodeNev/MTPBOT/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/CodeNev/MTPBOT/actions)
+[![پوشش تست](https://img.shields.io/codecov/c/github/CodeNev/MTPBOT.svg?style=for-the-badge&logo=codecov&logoColor=white)](https://codecov.io/gh/CodeNev/MTPBOT)
 [![دانلودها](https://img.shields.io/pypi/dm/mtpbot.svg?style=for-the-badge&logo=pypistats&logoColor=white&color=0A66C2)](https://pypistats.org/packages/mtpbot)
-[![سبک کد](https://img.shields.io/badge/code%20style-ruff-000000.svg?style=for-the-badge&logo=ruff&logoColor=white)](https://github.com/astral-sh/ruff)
-[![بررسی نوع](https://img.shields.io/badge/type--checked-mypy-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://mypy-lang.org/)
+[![ستاره‌های گیت‌هاب](https://img.shields.io/github/stars/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white&color=yellow)](https://github.com/CodeNev/MTPBOT/stargazers)
+[![فورک‌ها](https://img.shields.io/github/forks/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeNev/MTPBOT/network/members)
+[![ایشوها](https://img.shields.io/github/issues/CodeNev/MTPBOT.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CodeNev/MTPBOT/issues)
+
+<!-- ===================== نسخهٔ وابستگی‌ها ===================== -->
+[![Telethon](https://img.shields.io/badge/Telethon-1.44.0-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://pypi.org/project/Telethon/1.44.0/)
+[![pytest](https://img.shields.io/badge/pytest-9.1.1-0A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)](https://pypi.org/project/pytest/9.1.1/)
+[![pytest-asyncio](https://img.shields.io/badge/pytest--asyncio-1.4.0-0A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)](https://pypi.org/project/pytest-asyncio/1.4.0/)
+[![Ruff](https://img.shields.io/badge/Ruff-0.15.20-000000.svg?style=for-the-badge&logo=ruff&logoColor=white)](https://pypi.org/project/ruff/0.15.20/)
+[![mypy](https://img.shields.io/badge/mypy-2.1.0-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/mypy/2.1.0/)
+[![cryptg](https://img.shields.io/badge/cryptg-0.6.0-2E8B57.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://pypi.org/project/cryptg/0.6.0/)
+
+<!-- ===================== وضعیت ===================== -->
 [![Async](https://img.shields.io/badge/async-await-2E8B57.svg?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/asyncio.html)
 [![MTProto](https://img.shields.io/badge/protocol-MTProto-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/mtproto)
-[![خوش‌آمدید](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![بررسی نوع](https://img.shields.io/badge/type--checked-mypy-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://mypy-lang.org/)
+[![خوش‌آمدید](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/CodeNev/MTPBOT/blob/main/CONTRIBUTING.md)
 [![ساخته‌شده با ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-red.svg?style=for-the-badge)](#-سپاسگزاری)
 
 **یک رابط تمیز، async و شبیه Bot API برای ربات‌های تلگرامی که باید از طریق
 MTProto Proxy به تلگرام متصل شوند — نه یک تونل HTTP.**
 
-[مستندات](docs/) · [نمونه‌ها](examples/) · [تغییرات](CHANGELOG.md) · [گزارش باگ](https://github.com/mtpbot/mtpbot/issues)
+[مستندات](docs/) · [نمونه‌ها](examples/) · [تغییرات](CHANGELOG.md) · [گزارش باگ](https://github.com/CodeNev/MTPBOT/issues)
 
 </div>
 
@@ -106,7 +130,7 @@ async def start(message):
 | مخفی‌سازی Token و Secret در لاگ‌ها | ✅ |
 | سازگار با متغیرهای محیطی | ✅ |
 | CLI (`mtpbot run`، `mtpbot check`، `mtpbot version`) | ✅ |
-| پایتون 3.10 به بالا | ✅ |
+| پایتون 3.14.7 به بالا | ✅ |
 | تایپ کامل (`mypy --strict` بدون خطا) | ✅ |
 | بدون وابستگی غیرضروری | ✅ |
 
@@ -173,8 +197,8 @@ pip install mtpbot
 ### از سورس
 
 ```bash
-git clone https://github.com/mtpbot/mtpbot
-cd mtpbot
+git clone https://github.com/CodeNev/MTPBOT.git
+cd MTPBOT
 pip install .
 ```
 
@@ -191,6 +215,18 @@ pip install -e ".[dev]"
 ```bash
 pip install "mtpbot[fast]"
 ```
+
+### پیش‌نیازها
+
+| مؤلفه | حداقل | آخرین نسخه (تا این انتشار) |
+|---|---|---|
+| پایتون | 3.14.7 | 3.14.7 |
+| Telethon | 1.44.0 | 1.44.0 |
+| pytest | 9.1.1 | 9.1.1 |
+| pytest-asyncio | 1.4.0 | 1.4.0 |
+| Ruff | 0.15.20 | 0.15.20 |
+| mypy | 2.1.0 | 2.1.0 |
+| cryptg | 0.6.0 | 0.6.0 |
 
 ---
 
@@ -523,15 +559,16 @@ MTPBOT اعتبارنامه‌ها را به‌عنوان دادهٔ حساس د
   نمی‌شود.
 
 اگر یک مشکل امنیتی پیدا کردید، **لطفاً issue عمومی باز نکنید.** به
-[SECURITY.md](SECURITY.md) مراجعه کنید.
+[SECURITY.md](https://github.com/CodeNev/MTPBOT/blob/main/SECURITY.md)
+مراجعه کنید.
 
 ---
 
 ## 🛠 توسعه
 
 ```bash
-git clone https://github.com/mtpbot/mtpbot
-cd mtpbot
+git clone https://github.com/CodeNev/MTPBOT.git
+cd MTPBOT
 
 python -m venv .venv
 source .venv/bin/activate         # ویندوز: .venv\Scripts\activate
@@ -588,8 +625,8 @@ pytest tests/test_mtproxy.py # یک ماژول
 | v0.6 — سیستم پلاگین | 📋 برنامه‌ریزی‌شده |
 | v1.0 — API پایدار + type stub کامل | 🎯 هدف |
 
-برای رأی‌دادن به اولویت‌ها به [Discussions](https://github.com/mtpbot/mtpbot/discussions)
-مراجعه کنید.
+برای رأی‌دادن به اولویت‌ها به
+[Discussions](https://github.com/CodeNev/MTPBOT/discussions) مراجعه کنید.
 
 ---
 
@@ -641,29 +678,35 @@ MTPBOT به‌طور خاص دربارهٔ پروکسی‌های MTProto است.
 
 از مشارکت استقبال می‌شود — از اصلاح غلط تایپی تا فیچر کامل.
 
-1. مخزن را fork کنید.
+1. مخزن را فورک کنید: https://github.com/CodeNev/MTPBOT/fork
 2. یک شاخه بسازید: `git checkout -b feat/my-feature`.
 3. برای تغییر خود تست بنویسید.
 4. `ruff check .`، `mypy mtpbot` و `pytest -q` را اجرا کنید.
 5. یک Pull Request با توضیح شفاف باز کنید.
 
-لطفاً ابتدا [CONTRIBUTING.md](CONTRIBUTING.md) و
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) را بخوانید.
+لطفاً ابتدا
+[CONTRIBUTING.md](https://github.com/CodeNev/MTPBOT/blob/main/CONTRIBUTING.md)
+و
+[CODE_OF_CONDUCT.md](https://github.com/CodeNev/MTPBOT/blob/main/CODE_OF_CONDUCT.md)
+را بخوانید.
 
 **مسائل مناسب شروع** با برچسب
-[`good first issue`](https://github.com/mtpbot/mtpbot/labels/good%20first%20issue)
+[`good first issue`](https://github.com/CodeNev/MTPBOT/labels/good%20first%20issue)
 علامت‌گذاری شده‌اند.
 
 ---
 
 ## 📄 مجوز
 
-MTPBOT تحت **مجوز MIT** منتشر شده است. برای متن کامل به [LICENSE](LICENSE)
+MTPBOT تحت **مجوز MIT** منتشر شده است. برای متن کامل به
+[LICENSE](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
 مراجعه کنید.
 
 ```
 MIT License — Copyright (c) 2026 MTPBOT Contributors
 ```
+
+[![مجوز: MIT](https://img.shields.io/badge/License-MIT-97CA00.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/CodeNev/MTPBOT/blob/main/LICENSE)
 
 ---
 
@@ -707,6 +750,41 @@ MTPBOT روی شانه‌های یک جامعهٔ خارق‌العاده از �
 
 **MTPBOT** · ساخته‌شده با ❤️ و احترامی سالم به رمزنگاری.
 
+مخزن: **[github.com/CodeNev/MTPBOT](https://github.com/CodeNev/MTPBOT)**
+
 [⬆ بازگشت به بالا](#mtpbot)
 
 </div>
+```
+
+---
+
+## تغییرات کلیدی نسبت به نسخهٔ قبلی فارسی
+
+| مورد | قبل | بعد |
+|---|---|---|
+| لینک مخزن | `github.com/mtpbot/mtpbot` | **`github.com/CodeNev/MTPBOT`** |
+| لایسنس | فقط متن | نشان MIT با لینک مستقیم به فایل LICENSE + ایموجی اختصاصی |
+| ستاره‌ها / فورک‌ها / ایشوها | نبود | سه نشان جدید اضافه شد |
+| نسخهٔ پایتون | `pypi/pyversions` داینامیک | **`python-3.14.7`** استاتیک |
+| نسخهٔ وابستگی‌ها | نبود | Telethon 1.44.0، pytest 9.1.1، pytest-asyncio 1.4.0، Ruff 0.15.20، mypy 2.1.0، cryptg 0.6.0 |
+| سوییچر زبان | نبود | ۵ زبان با ایموجی پرچم، لینک‌شده به هم |
+| جدول پیش‌نیازها | نبود | اضافه شد |
+| `git clone` | آدرس اشتباه | آدرس درست `CodeNev/MTPBOT` |
+| لینک‌های `SECURITY.md` و `CONTRIBUTING.md` و `LICENSE` | نسبی | مطلق با آدرس کامل گیت‌هاب |
+| فوتر | بدون آدرس مخزن | شامل لینک مستقیم به مخزن |
+
+### اتصال متقابل زبان‌ها
+
+هر پنج فایل README باید سوییچر یکسانی داشته باشند. برای اینکه فارسی به بقیه هم لینک شود، این بلاک در ابتدای فایل قرار دارد:
+
+```markdown
+🌍 **زبان‌ها:**
+[🇬🇧 English](README.md) ·
+[🇮🇷 فارسی](README.fa.md) ·
+[🇸🇦 العربية](README.ar.md) ·
+[🇨🇳 中文](README.zh.md) ·
+[🇷🇺 Русский](README.ru.md)
+
+
+و در فایل‌های دیگر هم دقیقاً همان بلاک تکرار می‌شود — فقط زبان فعال (پرچم فعلی) در همه یکسان است. این باعث می‌شود تمام READMEها به هم لینک شوند و کاربر بتواند آزادانه بین زبان‌ها جابه‌جا شود.
